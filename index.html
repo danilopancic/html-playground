@@ -3,6 +3,40 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Meine erste Webseite</title>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            li {
+              float: left;
+              border-right:1px solid #bbb;
+            }
+            
+            li:last-child {
+              border-right: none;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+            
+            .active {
+              background-color: #04AA6D;
+            }
+            </style>
     </head>
     <body>
         <header>
@@ -28,7 +62,7 @@
         <iframe src="https://scratch.mit.edu/projects/984048337/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
         <p>Muster 2</p>
         <iframe src="https://scratch.mit.edu/projects/984049644/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <p>Gespensterzeit/p>
+        <p>Gespensterzeit</p>
         <iframe src="https://scratch.mit.edu/projects/983968173/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </section>
     <section id="contact">
